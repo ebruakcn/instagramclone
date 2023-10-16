@@ -48,7 +48,7 @@ input.empty {
 }
 /*Kodlarım*/ 
 /*1. 2. Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağladık. İçerik ile birleşmemesi için body'e padding verdik.
-Navbarın height'ı 54 px yaptık ve arkaplan rengi beyaz yaptık.*/
+Navbarın height'ı 54 px yaptık ve arkaplan rengi beyaz yaptık. fixed-top komutu ile de yapılıyor*/
 .navbar-container {
   position: sticky;
   top: 0;
